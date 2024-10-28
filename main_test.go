@@ -11,10 +11,10 @@ import (
 	"github.com/soranoba/googp"
 )
 
-//go:embed image.html
+//go:embed testdata/image.html
 var imageHTML []byte
 
-//go:embed video.html
+//go:embed testdata/video.html
 var videoHTML []byte
 
 func TestParse(t *testing.T) {
